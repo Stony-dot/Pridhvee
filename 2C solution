@@ -1,0 +1,1 @@
+Select m.lastName, m.FirstName, m.MemberID from Member, Entry e where m.MemberID=e.MemberID and(e.year is Not Null AND e.Year <> 2013);
